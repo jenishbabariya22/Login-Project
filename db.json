@@ -1,0 +1,100 @@
+{
+  "user": [
+    {
+      "name": "jenish",
+      "email": "jenish@gmail.com",
+      "password": 12345679,
+      "phone": "7984652555",
+      "role": "admin",
+      "id": "e5b6"
+    },
+    {
+      "id": "726e",
+      "name": "jenishbabariya58@gmail.com",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "sdsdfg",
+      "phone": "7899522333",
+      "role": "user"
+    },
+    {
+      "id": "e4b2",
+      "name": "jatinkapodatra",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "weew",
+      "phone": "7984614252",
+      "role": "user"
+    },
+    {
+      "id": "27fd",
+      "name": "jenishbabariya58@gmail.com",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "dffdf",
+      "phone": "13243674",
+      "role": "user"
+    },
+    {
+      "id": "8194",
+      "name": "jenishbabariya58@gmail.com",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "nnjj",
+      "phone": "7984314252",
+      "role": "user"
+    },
+    {
+      "id": "6c9a",
+      "name": "jenishbabariya58@gmail.com",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "nsnsnsns",
+      "phone": "622333657",
+      "role": "user"
+    },
+    {
+      "id": "a465",
+      "name": "makwana@gmail.com",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "12345678",
+      "phone": "",
+      "role": "user"
+    },
+    {
+      "id": "2de9",
+      "name": "yyoy",
+      "email": "vfd",
+      "password": "dvdfv ",
+      "phone": "51",
+      "role": "user"
+    },
+    {
+      "id": "ad02",
+      "name": "x sx",
+      "email": "vc df",
+      "password": "bg ",
+      "phone": "452",
+      "role": "user"
+    },
+    {
+      "id": "fe16",
+      "name": "jenishbabariya58@gmail.com",
+      "email": "jenishbabariya58@gmail.com",
+      "password": "123456789",
+      "phone": "7984314252623598789",
+      "role": "user"
+    },
+    {
+      "id": "8ed8",
+      "name": "DF",
+      "email": "FDFD",
+      "password": "          ",
+      "phone": "",
+      "role": "user"
+    },
+    {
+      "id": "2156",
+      "name": "jenishbabariya58@gmail.com",
+      "email": "jenishbabariya58@gmakmkmkmkil.com",
+      "password": "1234567895555",
+      "phone": "9265437056",
+      "role": "user"
+    }
+  ]
+}
