@@ -1,20 +1,23 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useAuth, useauth } from '../context/Auth';
 
 function Header() {
-    const [islogin, setlogin] = useState({})
+
+    const [auth, setauth] = useAuth()
 
     const logout = () => {
         localStorage.removeItem("userlogin")
+        setauth({
+            ...auth,
+            user: null
+        })
         toast.success("user Logout Success")
     }
 
-    useEffect(() => {
-        let user = JSON.parse(localStorage.getItem("userlogin"))
-        setlogin(user)
-    }, [])
+
 
     return (
         <>
@@ -35,12 +38,12 @@ function Header() {
                                 {/* Nav */}
                                 <div className="navbar-nav mx-lg-auto">
                                     <a className="nav-item nav-link active" href="#" aria-current="page">Home</a>
-                                    <a className="nav-item nav-link" href="#">Product</a>
-                                    <a className="nav-item nav-link" href="#">Features</a>
-                                    <a className="nav-item nav-link" href="#">Pricing</a>
+                                    <Link className="nav-item nav-link" href="#" to={"/admin/product"}>Product</Link>
+                                    <Link className="nav-item nav-link" href="#" to={"/admin/category"}>Category</Link>
+                                    <Link className="nav-item nav-link" href="#" to={"/admin/addcategory"}>Add category</Link>
                                 </div>
                                 {
-                                    (!islogin) ? (
+                                    (!auth.user) ? (
                                         <>
                                             {/* Right navigation */}
                                             <div className="navbar-nav ms-lg-4">
@@ -56,9 +59,11 @@ function Header() {
                                     ) : (
                                         <>
                                             <div className="d-flex align-items-lg-center mt-3 mt-lg-0">
-                                                <button className="btn btn-sm btn-danger ms-2 w-full w-lg-auto" onClick={logout}>
-                                                    Logout
-                                                </button>
+
+                                                <Link to={"/login"}>
+                                                    <button className="btn btn-sm btn-danger ms-2 w-full w-lg-auto" onClick={logout}>Logout </button>
+                                                </Link>
+
                                             </div>
                                         </>
                                     )
@@ -66,8 +71,8 @@ function Header() {
                             </div>
                         </div>
                     </nav>
-                </div>
-            </div>
+                </div >
+            </div >
         </>
 
     )

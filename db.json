@@ -2,8 +2,8 @@
   "user": [
     {
       "name": "jenish",
-      "email": "jenish@gmail.com",
-      "password": 12345679,
+      "email": "jenish",
+      "password": 1234,
       "phone": "7984652555",
       "role": "admin",
       "id": "e5b6"
@@ -95,6 +95,126 @@
       "password": "1234567895555",
       "phone": "9265437056",
       "role": "user"
+    }
+  ],
+  "category": [
+    {
+      "id": "0554",
+      "category": "hello"
+    },
+    {
+      "id": "a9ff",
+      "category": "jenish"
+    },
+    {
+      "id": "4dc4",
+      "category": "jigar"
+    },
+    {
+      "id": "4dc5",
+      "category": "Manasvi"
+    },
+    {
+      "id": "cf62",
+      "category": "jenish"
+    },
+    {
+      "id": "a888",
+      "category": "harsh@123"
+    },
+    {
+      "id": "ea5e",
+      "category": "oioioioioioioioio"
+    },
+    {
+      "id": "02d9",
+      "category": "jenish"
+    },
+    {
+      "id": "f085",
+      "category": "app"
+    },
+    {
+      "id": "d2bb",
+      "category": "jenish"
+    },
+    {
+      "id": "98f7",
+      "category": "sorry"
+    },
+    {
+      "id": "7565",
+      "category": "mobile"
+    },
+    {
+      "id": "005b",
+      "category": ""
+    },
+    {
+      "id": "237b",
+      "category": "jenish"
+    },
+    {
+      "id": "af52",
+      "category": "hello"
+    }
+  ],
+  "product": [
+    {
+      "id": "db98",
+      "category": "Mobile",
+      "product": "Apple",
+      "qty": "1",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/h/d/-original-imags487gaqqhcea.jpeg?q=70",
+      "discription": "jenishbabariya58@gmail.com",
+      "title": "nice"
+    },
+    {
+      "id": "84c1",
+      "category": "",
+      "product": "Apple",
+      "qty": "1",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/h/d/-original-imags487gaqqhcea.jpeg?q=70",
+      "discription": "jenishbabariya58@gmail.com",
+      "title": "nice",
+      "market": "-----Category-----"
+    },
+    {
+      "id": "8fdb",
+      "category": "Dress",
+      "product": "Nylon",
+      "qty": "2",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/dress/o/f/u/l-dr27-ff-eyebogler-original-imagksxf4fwgzscg.jpeg?q=70",
+      "discription": "Women Bodycon Brown Dre",
+      "title": "EyeBogler",
+      "market": "1"
+    },
+    {
+      "id": "6bb0",
+      "category": "watch",
+      "product": "Realme Watch",
+      "qty": "1",
+      "image": "https://rukminim2.flixcart.com/image/612/612/l02r1jk0/watch/v/y/f/-original-imaf8qx8rmzayqrs.jpeg?q=70",
+      "discription": "nice watch",
+      "title": "he;;p"
+    },
+    {
+      "id": "570d",
+      "category": "mobile",
+      "product": "Apple",
+      "qty": "1",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70",
+      "discription": "Nice Apple",
+      "title": "Awesome"
+    },
+    {
+      "id": "10d8",
+      "category": "mobile",
+      "product": "oppo",
+      "qty": "1",
+      "image": "https://rukminim2.flixcart.com/image/612/612/l1l1rww0/mobile-skin/x/i/c/pebbles-blue-back-skin-or-vinyl-wrap-for-apple-airpods-pro-yes-original-imagd447p6hrpknk.jpeg?q=70",
+      "discription": "nice",
+      "title": "old"
     }
   ]
 }
